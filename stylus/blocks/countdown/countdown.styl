@@ -1,0 +1,82 @@
+.countdown
+  display flex
+  justify-content center
+  align-items center
+  color #261d07
+
+  &__title
+    margin-bottom 10px
+    font-size 18px
+    font-weight 700
+    line-height 32px
+
+  &__number
+    position relative
+    width 70px
+    height 70px
+    box-shadow 0 -2px 0 #b57d00
+    border-radius 20px
+    background-color #ffffff
+    background-image radial-gradient(circle 33px at center, #ffce58 0%, #eda503 100%)
+
+    @media (min-width 650px)
+      width 125px
+      height 125px
+      background-image radial-gradient(circle 63px at center, #ffce58 0%, #eda503 100%)
+
+    &_sm
+      width 50px
+      height 50px
+      border-radius 10px
+      background-image radial-gradient(circle 25px at center, #ffce58 0%, #eda503 100%)
+
+      @media (min-width 480px)
+        width 63px
+        height 63px
+        background-image radial-gradient(circle 32px at center, #ffce58 0%, #eda503 100%)
+
+    &_top
+      height 50%
+      border-radius 20px
+      background-color #eda503
+
+      &_sm
+        border-radius 10px
+
+  &__value
+    position absolute
+    top 0
+    left 0
+    right 0
+    bottom 0
+    display flex
+    justify-content center
+    align-items center
+    font-size 30px
+    font-weight 700
+
+    @media (min-width 650px)
+      font-size 72px
+
+    &_sm
+      font-size 30px
+
+      @media (min-width 480px)
+        font-size 36px
+
+  &__divider
+    width 60px
+    padding-top 40px
+    font-size 30px
+    font-weight 700
+    line-height 32px
+    text-shadow 0 1px 0 rgba(255, 255, 255, 0.35)
+    text-align center
+
+    @media (min-width 650px)
+      font-size 72px
+
+    &_sm
+      width 30px
+      font-size 36px
+      padding-top 0

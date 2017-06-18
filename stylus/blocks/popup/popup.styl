@@ -1,0 +1,126 @@
+.popup
+	width 720px
+	max-width 100%
+	padding 40px 20px 20px
+	background-color #fbb400
+	background-image radial-gradient(circle at 30% 30%, rgba(247, 157, 0, 0.53) 0%, rgba(252, 234, 187, 0.53) 0%, rgba(248, 181, 0, 0.53) 100%)
+	color #261d07
+	text-align center
+	border-radius 20px
+	font-family Panton
+
+	@media (min-width $screen-sm)
+		padding 50px 20px
+		border-radius 50px
+
+	&__title
+		margin 0 0 20px
+		font-size 30px
+		font-weight 700
+		line-height 30px
+		text-transform uppercase
+
+		@media (min-width $screen-sm)
+			margin 0 0 50px
+			font-size 36px
+			line-height 48px
+
+
+	&__group
+		width 400px
+		max-width 100%
+		padding-bottom 20px
+		margin auto
+
+
+	&__label
+		display block
+		font-size 18px
+		font-weight 600
+		text-transform uppercase
+
+		@media (min-width $screen-sm)
+			line-height 48px
+			font-size 24px
+
+	&__field
+		display block
+		width 100%
+		height 50px
+		border none
+		border-radius 20px
+		background-color #ffffff
+		text-align center
+		font-size 24px
+		font-weight 600
+		text-transform uppercase
+		placeholder(lightness(#261d07, 10%))
+
+		@media (min-width $screen-sm)
+			line-height 48px
+			border-radius 40px
+			height 80px
+
+
+	&__button
+		display block
+		width 330px
+		margin 20px auto 20px
+
+		@media (min-width $screen-sm)
+			margin 35px auto 40px
+
+	&__link
+		display inline-block
+		margin-bottom 25px
+		font-size 24px
+		font-weight 900
+		text-decoration underline
+		text-transform uppercase
+
+		@media (min-width $screen-sm)
+			line-height 48px
+
+	&__social
+		&-title
+			margin-bottom 20px
+			font-size 24px
+			font-weight 700
+			line-height 48px
+			text-transform uppercase
+
+		&-content
+			text-align center
+			justify-content center
+
+	&__info
+		font-weight 800
+
+
+		&-group
+			font-size 36px
+			text-transform none
+			font-weight 600
+
+			&-icon
+				margin-left 15px
+
+		&-group-number
+			font-weight 42px
+
+.fancybox-close-small
+	@media (min-width $screen-sm)
+		width 75px
+		height 75px
+
+.fancybox-close-small:after,
+.fancybox-close-small:hover:after
+	top 5px
+	right 5px
+	box-shadow 0 1px 1px rgba(10, 10, 10, 0.35)
+	background-color #fbca49
+	color #000
+
+	@media (min-width $screen-sm)
+		top 22px
+		right 22px

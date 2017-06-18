@@ -1,0 +1,46 @@
+.winner-item
+  margin 0 -10px 10px
+  text-align center
+
+  @media (min-width 768px)
+    margin 0 0 10px
+
+
+  &__title
+    margin-bottom 5px
+    font-size 15px
+    font-weight 700
+
+
+    @media (min-width 768px)
+      margin 0 0 20px
+      font-size 24px
+      font-weight 800
+      line-height 32px
+
+  &__pr
+    width 100%
+    height auto
+    margin-bottom 12px
+    opacity 0.6
+
+    &_active
+      opacity 1
+
+  &__points
+    &-icon
+      position relative
+      top -7px
+      margin-right 5px
+      
+      @media (min-width 768px)
+        margin-right 10px
+
+    &-count
+      font-size 18px
+      font-weight 800
+
+      @media (min-width 768px)
+        font-size 24px
+        font-weight 800
+        line-height 32px

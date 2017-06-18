@@ -1,0 +1,25 @@
+{
+  "name": "fotobay",
+  "description": "fotobay project",
+  "main": "gulpfile.js",
+  "authors": [
+    "Milok Murlyka (milok.murlika@yandex.ru)"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-stylus": "^5.0.7",
+    "jquery": "^3.2.1",
+    "fancybox": "^3.0.47",
+    "animate.css": "^3.5.2",
+    "svg4everybody": "^2.1.7"
+  }
+}

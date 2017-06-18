@@ -1,0 +1,117 @@
+.nav
+	background-color: #261f11;
+
+	&__container
+		position relative
+		display flex
+		align-items flex-start
+		justify-content space-between
+		padding 6px 0 7px
+		min-height 48px
+
+		@media (min-width $screen-sm)
+			align-items center
+
+	&__trigger
+		background transparent
+		border none
+		margin-top: 7px;
+		margin-bottom: -7px;
+		width: 32px;
+		height: 26px;
+		position: relative;
+		// margin: 50px auto;
+		transform: rotate(0deg);
+		transition: .2s ease-in-out;
+		cursor: pointer;
+
+		@media (min-width: @screen-md-min) {
+			float: none;
+		}
+
+
+
+		span {
+			display block
+			position absolute
+			height 4px
+			width 100%
+			border-radius 2px
+			background #fff
+			opacity: 1;
+			left: 0;
+			transform: rotate(0deg);
+			transition: .25s ease-in-out;
+
+			&:nth-child(1) {
+				top: 0;
+			}
+
+			&:nth-child(2) {
+				top: 10px;
+			}
+
+			&:nth-child(3) {
+				top: 20px;
+			}
+		}
+
+	&__trigger_open
+		span {
+			&:nth-child(1) {
+				top: 12px;
+				transform: rotate(135deg);
+			}
+
+			&:nth-child(2) {
+				opacity: 0;
+				left: -40px;
+			}
+
+			&:nth-child(3) {
+				top: 12px;
+				transform: rotate(-135deg);
+			}
+		}
+
+
+	&__list
+		display none
+		padding 10px 0 0
+		margin 0
+		list-style-type none
+		color #fbf8e9
+		font-family Fregat
+		font-size 20px
+		font-weight 400
+
+		&_open
+			display block
+
+		@media (min-width $screen-sm)
+			display flex
+			justify-content space-between
+			padding 0
+			width 500px
+			font-size 16px
+
+		@media (min-width $screen-md)
+			width 700px
+			font-size 18px
+
+		@media (min-width $screen-lg)
+			width 785px
+
+	&__item
+		padding 3px 0px
+
+		@media (min-width $screen-sm)
+			padding 0
+
+	&__button
+		position absolute
+		right 0
+		top 6px
+
+		@media (min-width $screen-sm)
+			position static

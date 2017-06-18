@@ -1,0 +1,73 @@
+.button
+  display inline-block
+  text-align center
+  max-width 100%
+
+  &_type
+    &_button
+      border none
+      
+    &_link
+      text-decoration none
+
+      &:hover,
+      &:focus,
+      &:active
+        text-decoration none
+
+  &_size
+    &_sm
+      padding 6.5px 31.5px
+      border-radius 17px
+      font-size 18px
+      font-weight 700
+
+    &_md
+      padding 15px 31.5px
+      border-radius 30px
+      font-size 21px
+      font-weight 700
+      line-height 30px
+
+  &_theme
+    &_sun
+      box-shadow 0 2px 0 #ac7b00
+
+      background-color #fbb70a
+      background-image linear-gradient(to top, #dda002 0%, #fcb802 100%)
+      color #261d07
+      font-family Fregat
+
+      &:hover,
+      &:focus,
+      &:active
+        background-image: linear-gradient(to bottom, #dda002 0%, #fcb802 100%);
+
+    &_lime
+      background-color #42bb0a
+      background-image linear-gradient(to top, #3cb102 0%, #3fba02 100%)
+      box-shadow 0 2px 0 #008d28
+      text-shadow 0 -1px 0 rgba(0, 141, 40, 0.33)
+      color #fbf8e9
+      font-family Panton
+      text-transform uppercase
+
+      &:hover,
+      &:focus,
+      &:active
+        background-image linear-gradient(to bottom, #3cb102 0%, #3fba02 100%)
+        opacity 0.9
+        color #fbf8e9
+
+    &_black
+      border 2px solid #261d07
+      background-color transparent
+      text-shadow 0 -1px 0 rgba(0, 141, 40, 0.33)
+      color #261d07
+      text-transform uppercase
+
+      &:hover,
+      &:focus,
+      &:active
+        background #261d07
+        color white

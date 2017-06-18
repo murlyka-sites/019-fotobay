@@ -1,0 +1,74 @@
+.winner: .container: .row
+  .col-xs-12: .winner__header.winner-header
+    .winner-header__icon: svg(width="150", height="140"): use(xlink:href="images/sprite.svg#palm")
+    .winner-header__group
+      | Группа: 
+      a.winner-header__link(href="#") #1
+      |, 
+      a.winner-header__link(href="#") #2
+      |, 
+      a.winner-header__link.winner-header__link_active(href="#") #3
+    .winner-header__countdown
+      .winner-header__countdown-title Осталось:
+      include ../countdown/countdown_sm
+  .col-xs-12.col-sm-10.col-sm-offset-1.col-md-8.col-md-offset-2
+    .winner__title Победитель:
+    .winner__name Степанова Алина
+    img.winner__pr(src="images/winner.jpg", width="768", height="530")
+    .winner__points
+      span.winner__points-icon: svg.svg(width="45", height="45"): use(xlink:href="images/sprite.svg#star", fill="#fff")
+      span.winner__points-count 1 120 232
+    .winner__price 12 500
+      span.rubl ₽
+    .winner__social
+      span.winner__social-title Поделиться:
+      span.social
+        a.social__link(href="#"): svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#instagram-black")
+        a.social__link(href="#"): svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#vk-black")
+  
+  .clearfix
+    .col-xs-12.col-md-6: .row
+      .col-xs-6: .winner-item
+        .winner-item__title: a(href="#") Степанова Алина
+        img.winner-item__pr.winner-item__pr_active(src="images/winner-item-1.jpg", width="270", height="187")
+        .winner-item__points
+          span.winner-item__points-icon: svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#star", fill="#fff")
+          span.winner-item__points-count 1 120 232
+          
+      .col-xs-6: .winner-item
+        .winner-item__title: a(href="#")  Павел и Ирина
+        img.winner-item__pr(src="images/winner-item-2.jpg", width="270", height="187")
+        .winner-item__points
+          span.winner-item__points-icon: svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#star", fill="#fff")
+          span.winner-item__points-count 1 120 232
+    .col-xs-12.col-md-6: .row
+      .col-xs-6: .winner-item
+        .winner-item__title: a(href="#")  Андрей
+        img.winner-item__pr(src="images/winner-item-3.jpg", width="270", height="187")
+        .winner-item__points
+          span.winner-item__points-icon: svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#star", fill="#fff")
+          span.winner-item__points-count 1 120 232
+      .col-xs-6: .winner-item
+        .winner-item__title: a(href="#")  Виктория
+        img.winner-item__pr(src="images/winner-item-4.jpg", width="270", height="187")
+        .winner-item__points
+          span.winner-item__points-icon: svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#star", fill="#fff")
+          span.winner-item__points-count 1 120 232
+  .clearfix
+    .col-sm-12.col-md-6.col-md-offset-3: .row 
+      .col-xs-6: .winner-item
+        .winner-item__title: a(href="#") Наташа
+        img.winner-item__pr(src="images/winner-item-5.jpg", width="270", height="187")
+        .winner-item__points
+          span.winner-item__points-icon: svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#star", fill="#fff")
+          span.winner-item__points-count 1 120 232
+      
+      .col-xs-6: .winner-item
+        .winner-item__title: a(href="#")  Андрей и Вероника
+        img.winner-item__pr(src="images/winner-item-6.jpg", width="270", height="187")
+        .winner-item__points
+          span.winner-item__points-icon: svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#star", fill="#fff")
+          span.winner-item__points-count 1 120 232
+  .clearfix
+    .col-sm-6.col-sm-offset-3.col-md-4.col-md-offset-4
+      a.winner__button.button.button_type_link.button_size_md.button_theme_black(href="#") Вернуться

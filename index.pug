@@ -1,0 +1,20 @@
+doctype html
+html(lang="ru")
+	head
+		title fotobay — Главная
+		include pug/meta/meta
+		include pug/meta/link
+		//- include pug/meta/tests
+		style.
+			body {
+				/*background: url(tests/pixelperfect/index.png) center top;*/
+			}
+	body
+		.layout
+			include pug/blocks/nav/nav
+			include pug/blocks/main/main
+			include pug/blocks/foo/foo
+			//- include pug/meta/svg.svg
+			include pug/meta/hidden
+		include pug/meta/scripts
+		

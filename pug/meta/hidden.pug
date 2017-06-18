@@ -1,0 +1,49 @@
+.hidden
+  form.popup#auth
+    .popup__title Вход / Регистрация
+    .popup__group
+      label.popup__label Ваш емейл или login:
+      input.popup__field(type="text", placeholder="Имя пользователя", required)
+    .popup__group
+      label.popup__label Ваш емейл или login:
+      input.popup__field(type="text", placeholder="Пароль", required)
+    button.popup__button.button.button_type_button.button_size_md.button_theme_lime Отправить
+    a.popup__link.fancy(href="#reg") Зарегистрироваться
+    .popup__social
+      .popup__social-title Вход через соцсети:
+      .popup__social-content.social
+        a.social__link(href="#"): svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#instagram-black")
+        a.social__link(href="#"): svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#fb-black")
+        a.social__link(href="#"): svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#tw-black")
+  
+  form.popup#reg
+    .popup__title Вход / Регистрация
+    .popup__group
+      label.popup__label Ваш емейл или login:
+      input.popup__field(type="text", placeholder="Имя пользователя", required)
+    .popup__group
+      label.popup__label Ваш Пароль:
+      input.popup__field(type="text", placeholder="Пароль", required)
+    .popup__group
+      label.popup__label Ваш Пароль:
+      input.popup__field(type="text", placeholder="Пароль", required)
+    button.popup__button.button.button_type_button.button_size_md.button_theme_lime Отправить
+    a.popup__link.fancy(href="#reg") Вход
+    .popup__social
+      .popup__social-title Вход через соцсети:
+      .popup__social-content.social
+        a.social__link(href="#"): svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#instagram-black")
+        a.social__link(href="#"): svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#fb-black")
+        a.social__link(href="#"): svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#tw-black")
+  
+  .popup#info
+    .popup__info.popup__title ты в 
+      svg.svg.popup__info-group-icon(width="91", height="91"): use(xlink:href="images/sprite.svg#prices-2")
+      div 
+        span.popup__info-group группа
+        span.popup__info-group-number  #3
+    button.popup__button.button.button_type_button.button_size_md.button_theme_lime ок
+
+    
+      
+    

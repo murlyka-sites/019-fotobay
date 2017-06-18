@@ -1,0 +1,215 @@
+.main
+  .clearfix: .container: .row: .col-xs-12: header.main__header
+    svg.main__logo.svg(width="634", height="107"): use(xlink:href="images/sprite.svg#logo")
+    .main__social.social
+      a.social__link(href="#"): svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#instagram-black")
+      a.social__link(href="#"): svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#vk-black")
+  .clearfix: .container: .row
+    .col-sm-3.col-md-6: .main__pr.main__pr-1: img(src="images/main-pr-1.png", width="544", height="686")
+    .col-sm-9.col-md-6
+      include ../main-party/main-party
+  
+  .clearfix: .main__ribbon: .container: .row: .col-xs-12.col-md-6.col-md-offset-6
+    .main-ribbon
+      h2.main-ribbon__title Твоя победа 
+        br
+        | зависит только от тебя!
+      p.main-ribbon__slogan.main-ribbon__slogan-1 Всего лишь загрузи своё селфи и просмотри его 
+        br
+        | большее количество раз ... и забери свои призы!
+      p.main-ribbon__slogan.main-ribbon__slogan-2 ₽ за минуту элементарных просмотров 
+        br
+        |  своего селфи
+  .clearfix: .main__ready: .container: .row
+    .col-xs-12.col-lg-7: .main-ready
+      .main-ready__place.main-ready__place-1 Я тебя заинтриговал?
+      .main-ready__place.main-ready__place-2 Хочешь стать богатым и знаменитым?
+      .main-ready__place.main-ready__place-3 Ждёшь с нетерпением старта сезона/игры?
+      .main-ready__place.main-ready__place-4 
+        .main-ready__title Тогда все просто: 
+        .main-ready__desc cделай селфи со своего телефона 
+          br
+          | и загрузи его на сайт 
+          br
+          | или вместо тебя это сделает кто то другой
+      
+    .col-xs-5.visible-lg: .main__pr.main__pr-2: img(src="images/main-pr-2.png", width="348", height="627")
+.clearfix: .main__cloud.main-cloud: .container: .row
+    .col-md-5.col-lg-6
+      .main-cloud__left
+        .main-cloud__slogan
+          | Я не собираюсь заставлять тебя решать сложные 
+          br
+          | математические уравнения и выполнять трудоемкие 
+          br
+          | физические упражнения
+        .main-cloud__slogan
+          b Время ограничено.
+          |  У тебя осталась неделя 
+          br
+          | чтобы принять правильное решение учавствовать в игре!
+        
+    .col-md-7.col-lg-6
+      .main-cloud__cloud
+        | Ты можешь не учавствовать, 
+        br
+        | если только у тебя нет 
+        br
+        | пальцев на руках, 
+        br
+        | и твоя лень не даёт тебе покоя!
+.clearfix: .main__phrase.main-phrase: .container: .row
+    .col-md-8.col-lg-6
+      .main-phrase__levels
+        .main-phrase__level.main-phrase__level-1
+          | Торопись и ты заберёшь свои призы!
+        .main-phrase__level.main-phrase__level-2
+          | Продай своё селфи за дорого!
+        .main-phrase__level.main-phrase__level-3
+          | Действуй!
+    .col-md-4.col-lg-6
+      a.button.button_type_link.button_size_md.button_theme_lime.main-phrase__button(href="#") участвовать
+.clearfix: .main__prices.main-prices: .container: .row: .col-xs-12
+  .main-prices-item
+    .main-prices-item__pr
+      svg.svg(width="225", height="225"): use(xlink:href="images/sprite.svg#prices-1")
+    .main-prices-item__desc
+      .main-prices-item__title Продать селфи за
+      .main-prices-item__price 2500
+        span.main-prices-item__rubl p
+  .clearfix: .main-prices-item
+    .main-prices-item__pr
+      svg.svg(width="225", height="225"): use(xlink:href="images/sprite.svg#prices-2")
+    .main-prices-item__desc
+      .main-prices-item__title Продать селфи за
+      .main-prices-item__price 12 500
+        span.main-prices-item__rubl p
+  .clearfix: .main-prices-item
+    .main-prices-item__pr
+      svg.svg(width="225", height="225"): use(xlink:href="images/sprite.svg#prices-3")
+    .main-prices-item__desc
+      .main-prices-item__title Продать селфи за
+      .main-prices-item__price 25 000
+        span.main-prices-item__rubl p
+  .clearfix: .main-prices-item
+    .main-prices-item__pr
+      svg.svg(width="225", height="225"): use(xlink:href="images/sprite.svg#prices-4")
+    .main-prices-item__desc
+      .main-prices-item__title Продать селфи за
+      .main-prices-item__price 75 000
+        span.main-prices-item__rubl p
+.clearfix: .main__how.main-how: .container: .row
+  .col-xs-12: h2.main-how__title Как принять участие:
+  .clearfix
+    .col-xs-12.col-md-6: img.main-how__pr.main-how__pr-1(src="images/main-how-pr-1.png", width="530", height="663")
+    .col-xs-12.col-md-5.col-md-offset-0.col-lg-4.col-lg-offset-1
+      .main-how-item
+        header.main-how-item__header
+          .main-how-item__number 1
+          .main-how-item__title Делаешь селфи
+        .clearfix: .main-how-item__pr.main-how-item__pr-1
+          img(src="images/main-how-item-pr-1.jpg", width="270", height="270")
+      .main-how-item
+        header.main-how-item__header
+          .main-how-item__number 2
+          .main-how-item__title Регистрируешься
+            br
+            | на сайте 
+            br
+            | и оплачиваешь участие
+        .clearfix: .main-how-item__pr.main-how-item__pr-2
+          img(src="images/main-how-item-pr-2.jpg", width="270", height="270")
+  .clearfix
+    .col-xs-12.col-md-5.col-md-offset-4.col-lg-4
+      .main-how-item
+        header.main-how-item__header
+          .main-how-item__number 3
+          .main-how-item__title Набираешь звёзды
+        .clearfix: .main-how-item__pr.main-how-item__pr-2
+          img(src="images/main-how-item-pr-3.jpg", width="270", height="270")
+  .clearfix
+    .col-xs-12.col-md-5.col-lg-offset-1.col-lg-4
+      .main-how-item
+        header.main-how-item__header
+          .main-how-item__number 4
+          .main-how-item__title Побеждаешь
+        .clearfix: .main-how-item__pr.main-how-item__pr-4
+          img(src="images/main-how-item-pr-4.jpg", width="270", height="270")
+      .main-how-item
+        header.main-how-item__header
+          .main-how-item__number 5
+          .main-how-item__title Получаешь
+            br
+            | Деньги
+        .clearfix: .main-how-item__pr.main-how-item__pr-5
+          img(src="images/main-how-item-pr-5.jpg", width="270", height="270")
+    .col-xs-12.col-md-offset-1.col-md-6
+      img.main-how__pr.main-how__pr-2(src="images/main-how-pr-2.png", width="417", height="702")
+.clearfix: .main-next: .container: .row
+  .col-xs-12
+    h2.main-next__title Ближайшая скупка селфи
+    time.main-next__date 10 апреля 2017
+    time.main-next__time 18:00
+    .main-next__slogan Персональное селфи , с друзьями, любимыми , на отдыхе
+  .col-xs-12.col-sm-4: img.main-next__pr(src="images/main-next-pr-1.jpg", width="370", height="256")  
+  .col-xs-12.col-sm-4: img.main-next__pr(src="images/main-next-pr-2.jpg", width="370", height="256")  
+  .col-xs-12.col-sm-4: img.main-next__pr(src="images/main-next-pr-3.jpg", width="370", height="256") 
+  .col-xs-12
+    .main-next__start Начало через
+    .main-next__countdown
+      include ../countdown/countdown
+  .col-xs-12.col-sm-6.col-md-4.col-md-offset-2: a.button.button_type_link.button_theme_lime.button_size_md.main-next__button(href="#") участвовать
+  .col-xs-12.col-sm-6.col-md-4: a.button.button_type_link.button_theme_black.button_size_md.main-next__button(href="#") Голосовать
+.clearfix: .main-run: .container: .row
+  .col-xs-12.col-md-8.col-md-offset-2
+    .main-run__items
+      .main-run__item: svg.svg.main-run__icon(width="125", height="126"): use(xlink:href="images/sprite.svg#sun")
+      .main-run__item: svg.svg.main-run__icon(width="105", height="138"): use(xlink:href="images/sprite.svg#palm")
+      .main-run__item: svg.svg.main-run__icon(width="105", height="80"): use(xlink:href="images/sprite.svg#crown")
+      .main-run__item: svg.svg.main-run__icon(width="109", height="46"): use(xlink:href="images/sprite.svg#vip")
+  .col-xs-12.col-sm-6.col-sm-offset-3.col-md-offset-4.col-md-4: a.button.button_type_link.button_theme_lime.button_size_md.main-run__button(href="#") участвовать
+.clearfix: .main-winner: .container: .row
+  .col-xs-12: h2.main-winner__title Победители
+  .clearfix
+    .col-xs-12.col-md-6: .row
+      .col-sm-6: .main-winner-item
+        .main-winner-item__pr: img(src="images/main-winner-1.jpg", width="240", height="240")
+        .main-winner-item__title Ирина Степанова
+        .main-winner-item__sum Сумма: 
+          span.main-winner-item__sum-val 17500 
+            span.main-winner-item__rubl &#8381;
+        time.main-winner-item__date 12.11.2017
+      .col-sm-6: .main-winner-item
+        .main-winner-item__pr: img(src="images/main-winner-2.jpg", width="240", height="240")
+        .main-winner-item__title Виталий Владимиров
+        .main-winner-item__sum Сумма: 
+          span.main-winner-item__sum-val 17500 
+            span.main-winner-item__rubl &#8381;
+        time.main-winner-item__date 12.11.2017
+    .col-xs-12.col-md-6: .row
+      .col-sm-6: .main-winner-item
+        .main-winner-item__pr: img(src="images/main-winner-3.jpg", width="240", height="240")
+        .main-winner-item__title Алёна Иванова
+        .main-winner-item__sum Сумма: 
+          span.main-winner-item__sum-val 17500 
+            span.main-winner-item__rubl &#8381;
+        time.main-winner-item__date 12.11.2017
+      .col-sm-6: .main-winner-item
+        .main-winner-item__pr: img(src="images/main-winner-4.jpg", width="240", height="240")
+        .main-winner-item__title Эдуард и Наталья
+        .main-winner-item__sum Сумма: 
+          span.main-winner-item__sum-val 17500 
+            span.main-winner-item__rubl &#8381;
+        time.main-winner-item__date 12.11.2017
+  .col-xs-12.col-sm-6.col-sm-offset-3.col-lg-offset-4.col-lg-4: a.button.button_type_link.button_theme_black.button_size_md.main-winner__button(href="#") Все победители
+.clearfix: .main-cloud-2: .container: .row: .col-xs-12
+  .main-cloud-2__cloud
+    | Я куплю твоё селфи за сумму 
+    br
+    | до 
+    b 2 500 000₽
+    |  если 
+    br
+    | ты сможешь просмотреть его 
+    br 
+    | больше остальных участников 

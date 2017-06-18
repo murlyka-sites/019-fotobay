@@ -1,0 +1,74 @@
+.winner-header
+  display flex
+  justify-content space-between
+  align-items center
+  flex-direction column
+  min-height 150px
+  padding 120px 0 0
+  margin-bottom 65px
+
+  // @media (min-width $screen-sm)
+
+
+  @media (min-width $screen-md)
+    flex-direction row
+    padding 120px 0 0
+
+  @media (min-width $screen-lg)
+    justify-content center
+
+  &__icon
+    fill #261d07
+
+    @media (min-width $screen-md)
+      position static
+
+    @media (min-width: $screen-lg)
+      position absolute
+      left 0
+
+  &__group
+    padding 40px 0
+    font-size 30px
+    font-weight 700
+    line-height 32px
+
+    @media (min-width 480px)
+      font-size 36px
+
+  &__link
+    font-weight 800
+    line-height 48px
+    text-decoration underline
+
+    &:hover,
+    &:focus,
+    &:active
+      text-decoration none
+
+    &_active
+      font-size 40px
+      text-decoration none
+
+      @media (min-width 480px)
+        font-size 48px
+
+  &__countdown
+    padding 10px 15px 0 0
+    width 360px
+    max-width 100%
+
+    @media (min-width $screen-md)
+      margin-top -30px
+
+    @media (min-width $screen-lg)
+      position absolute
+      right 0
+
+
+    &-title
+      margin-bottom 10px
+      text-align right
+      font-size 21px
+      font-weight 700
+      line-height 32px

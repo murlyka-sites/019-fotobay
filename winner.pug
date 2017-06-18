@@ -1,0 +1,16 @@
+doctype html
+html(lang="ru")
+	head
+		title fotobay — Победители
+		include pug/meta/meta
+		include pug/meta/link
+		//- include pug/meta/tests
+		style.
+			body {
+				/*background: url(tests/pixelperfect/winner.png) center top;*/
+			}
+	body
+		.layout
+			include pug/blocks/winner/winner
+			include pug/meta/hidden
+		include pug/meta/scripts

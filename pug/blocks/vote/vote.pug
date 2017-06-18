@@ -1,0 +1,12 @@
+.vote
+  img.vote__bg(src="images/vote-bg.jpg")
+  .container: .row: .col-xs-12: .vote__container
+    .vote__header 1 120 232      
+    .vote__middle
+      a.vote__star(href="#"): svg.svg(width="290", height="290"): use(xlink:href="images/sprite.svg#star" fill="#fff")
+    .vote__foo
+      | Поделиться:
+      .social.vote__social
+        a.social__link(href="#"): svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#instagram-white")
+        a.social__link(href="#"): svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#vk-white")
+    a.vote__close(href="#"): svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#close-vote")

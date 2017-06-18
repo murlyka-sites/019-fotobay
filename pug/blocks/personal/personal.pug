@@ -1,0 +1,90 @@
+.main
+  .container: .row: .col-xs-12: header.main__header
+    svg.main__logo.svg(width="634", height="107"): use(xlink:href="images/sprite.svg#logo")
+    .main__social.social
+      a.social__link(href="#"): svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#instagram-black")
+      a.social__link(href="#"): svg.svg(width="35", height="35"): use(xlink:href="images/sprite.svg#vk-black")
+  .container: .row: .col-xs-12: .main-personal
+    h2.main-personal__title Кабинет
+    .main-personal__container
+      .main-personal__pr: img(src="images/main-winner-1.jpg", width="240", height="240")
+      .main-personal__info
+        .main-personal-info
+          .main-personal-info__name Ирина Степанова
+            a.main-personal-info__edit(href="#") Изменить
+          .main-personal-info__char
+            .main-personal-info__char-key.main-personal-info__char-key_line Емэйл:
+            .main-personal-info__char-val irina@hotmail.ru
+              a.main-personal-info__char-remove(href="#"): svg(width="17", height="17"): use(xlink:href="images/sprite.svg#remove")
+            a.main-personal-info__char-add(href="#") Прикрепить ещё емэйл
+          .main-personal-info__char
+            span.main-personal-info__char-key Телефон: 
+            span.main-personal-info__char-val +7 950 232 00 00
+      .main-personal__comment
+        .main-personal__comment-title Коментарий:
+        textarea.main-personal__comment-field Персональное селфи , с друзьями, любимыми , на отдыхе
+  .main-personal__wrap: .container: .row
+    .col-xs-12: .main-table__wrap
+      .hidden-xs: table.main-table
+        tr
+          th.main-table__th Дата
+          th.main-table__th Группа
+          th.main-table__th Фото
+          th.main-table__th Результат
+        tr
+          td.main-table__td 01.10.2017
+          td.main-table__td 
+            svg.svg.main-table__icon(width="35", height="35"): use(xlink:href="images/sprite.svg#sun")
+            | Группа 2
+          td.main-table__td: img(src="images/table-1.jpg", width="135", height="94")
+          td.main-table__td 1
+        tr
+          td.main-table__td 01.10.2017
+          td.main-table__td 
+            svg.svg.main-table__icon(width="35", height="35"): use(xlink:href="images/sprite.svg#palm")
+            | Группа 1
+          td.main-table__td: img(src="images/table-1.jpg", width="135", height="94")
+          td.main-table__td 2
+        tr
+          td.main-table__td 12.09.2017
+          td.main-table__td 
+            svg.svg.main-table__icon(width="35", height="35"): use(xlink:href="images/sprite.svg#crown")
+            | Группа 3
+          td.main-table__td: img(src="images/table-1.jpg", width="135", height="94")
+          td.main-table__td 6
+      .visible-xs: table.main-table
+        tr
+          th.main-table__th Информация
+          th.main-table__th Фото
+        tr
+          td.main-table__td 
+            | 01.10.2017
+            br
+            svg.svg.main-table__icon(width="35", height="35"): use(xlink:href="images/sprite.svg#sun")
+            | Группа 2
+            br
+            | Место 1
+          td.main-table__td.text-center: img(src="images/table-1.jpg", width="135", height="94")
+        tr
+          td.main-table__td 
+            | 01.10.2017
+            br
+            svg.svg.main-table__icon(width="35", height="35"): use(xlink:href="images/sprite.svg#palm")
+            | Группа 1
+            br
+            | Место 2
+          td.main-table__td.text-center: img(src="images/table-1.jpg", width="135", height="94")
+        tr
+          td.main-table__td 
+            | 12.09.2017
+            br
+            svg.svg.main-table__icon(width="35", height="35"): use(xlink:href="images/sprite.svg#crown")
+            | Группа 3
+            br
+            | Место 6
+          td.main-table__td.text-center: img(src="images/table-1.jpg", width="135", height="94")
+        
+    .col-xs-12.col-sm-6.col-md-offset-2.col-md-4: a.button.button_type_link.button_theme_black.button_size_md.main-table__button Вернуться
+    .col-xs-12.col-sm-6.col-md-4: a.button.button_type_link.button_theme_lime.button_size_md.main-table__button участие
+          
+          

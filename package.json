@@ -1,0 +1,17 @@
+{
+  "name": "fotobay",
+  "version": "1.0.0",
+  "description": "fotobay project",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "pixel-glass": "^1.0.13"
+  },
+  "devDependencies": {
+    "bower": "^1.7.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Milok Murlyka (milok.murlika@yandex.ru)",
+  "license": "MIT"
+}

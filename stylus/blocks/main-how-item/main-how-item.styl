@@ -1,0 +1,70 @@
+.main-how-item
+  margin-bottom 40px
+
+  &__header
+    position relative
+    display flex
+    align-items center
+    justify-content center
+    padding 0 40px
+    color #261d07
+    text-align center
+
+    @media (min-width $screen-md)
+      justify-content flex-start
+      padding 0
+
+  &__number
+    position absolute
+    left 0
+    width 40px
+    height 40px
+    border 2px solid #261f11
+    border-radius 50%
+    font-size 24px
+    font-weight 900
+    line-height 40px
+    text-transform uppercase
+
+    @media (min-width 480px)
+      width 70px
+      height 70px
+      line-height 70px
+
+    @media (min-width $screen-md)
+      position static
+
+  &__title
+    width 330px
+    max-width 100%
+    padding 5px 0
+    margin-right -30px
+    font-size 20px
+    font-weight 700
+
+
+    @media (min-width 480px)
+      font-size 30px
+      line-height 30px
+
+
+  &__pr
+    width 200px
+    margin auto
+    border-radius 50%
+    border 5px solid white
+    overflow hidden
+
+    @media (min-width $screen-sm)
+      width 270px
+
+    @media (min-width $screen-md)
+      margin-left 100px
+
+    img
+      max-width 200px
+      height auto
+      margin -5px
+
+      @media (min-width $screen-sm)
+        max-width none

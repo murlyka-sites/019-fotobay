@@ -1,0 +1,72 @@
+.main-personal
+  padding 65px 0 0
+  color #261d07
+  text-align center
+
+  &__wrap
+    padding-bottom 150px
+
+  &__title
+    font-size 48px
+    font-weight 900
+    line-height 32px
+    text-transform uppercase
+
+  &__container
+    padding 100px 0 0
+
+    @media (min-width $screen-md)
+      display flex
+      flex-wrap wrap
+      justify-content center
+      flex-direction row
+
+    @media (min-width $screen-lg)
+      flex-wrap no-wrap
+
+  &__pr
+    width 240px
+    height 240px
+    margin-right 60px
+    border-radius 50%
+    border 5px solid white
+    overflow hidden
+    margin 0 auto 30px
+
+    @media (min-width $screen-md)
+      margin 0 60px 0 0
+
+    img
+      margin -5px
+
+  &__info
+    @media (min-width $screen-md)
+      width 470px
+
+  &__comment
+    margin-top auto
+    margin-bottom 20px
+    text-align left
+
+    @media (min-width: $screen-lg)
+      width 399px
+
+    &-title
+      padding-left 25px
+      margin-bottom 15px
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+
+    &-field
+      display block
+      width 399px
+      max-width 100%
+      height 125px
+      padding 20px 30px
+      border-radius 10px
+      background-color #fff
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      resize none
